@@ -2,13 +2,13 @@
 - hosts: localhost
     tasks:
      - name: Create Ec2 instances
-                  ec2:
-                    key_name: xxxxxxxx
-                    instance_type: xxxxxxx
-                    image: ami-xxxxxxxxxxxxxx
-                    count: 1
-                    region: us-xxxx-x
-                    aws_secret_key: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-                    aws_access_key: xxxxxxxxxxxxxxxxxxxxx
-                    vpc_subnet_id: xxxxxxxxxxxxxxxxx
-                    assign_public_ip: yes
+          ec2:
+            key_name: xxxxxxxx
+            instance_type: xxxxxxx
+            image: ami-xxxxxxxxxxxxxx
+            count: 1
+            region: us-xxxx-x
+            aws_secret_key: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+            aws_access_key: xxxxxxxxxxxxxxxxxxxxx
+            vpc_subnet_id: xxxxxxxxxxxxxxxxx
+            assign_public_ip: yes
